@@ -1,7 +1,7 @@
 {
-  "name": "sunsynk-power-flow-card",
-  "version": "4.9.1",
-  "description": "A customizable Home Assistant card to emulate the Sunsynk System flow that's displayed on the Inverter screen.",
+  "name": "WP-card",
+  "version": "0.0.1",
+  "description": "A customizable Home Assistant card for Wärmepumpe.",
   "main": "sunsynk-power-flow-card.js",
   "scripts": {
     "lint": "eslint src/*.ts | more ",
