@@ -1,13 +1,9 @@
-# Sunsynk-Power-Flow-Card
+# WP-Card
 
-An animated Home Assistant card to emulate the power flow that's shown on the Sunsynk Inverter screen. You can use this for most Inverters (Sunsynk, Deye, Solis, Lux, FoxESS and Goodwe) as long as you have the required sensor data. See the [wiki](https://github.com/slipx06/sunsynk-power-flow-card/wiki) for integration methods and examples.
 
-[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=slipx06&repository=sunsynk-power-flow-card&category=plugin)
- ![GitHub release (latest by date)](https://img.shields.io/github/v/release/slipx06/sunsynk-power-flow-card?style=for-the-badge) <a href="https://www.buymeacoffee.com/slipx" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="28" width="120"></a>
 
 ## Documentation
 
-Refer to [https://slipx06.github.io/sunsynk-power-flow-card/index.html](https://slipx06.github.io/sunsynk-power-flow-card/index.html)
 
 ## Features
 
@@ -31,26 +27,6 @@ Refer to [https://slipx06.github.io/sunsynk-power-flow-card/index.html](https://
 ## Screenshots
 *Compact Version*
 
-![image](https://github.com/slipx06/sunsynk-power-flow-card/assets/7227275/ab3574b1-e8e3-487f-b486-f41c2941763a) 
-![image](https://github.com/slipx06/sunsynk-power-flow-card/assets/7227275/d9c58df6-d6d4-4796-97bd-e698298576b4)
-
-
-
-
-*Lite Version*
-
-![sun_lite](https://github.com/slipx06/sunsynk-power-flow-card/assets/7227275/a511b3e5-ad0b-429a-915d-3bc863c1ff65)
-![image](https://github.com/slipx06/sunsynk-power-flow-card/assets/7227275/1c44a09b-2914-4cbd-919d-477789137acd)
-![image](https://github.com/slipx06/sunsynk-power-flow-card/assets/7227275/9e3b86d7-ba07-4a5f-92c1-2aeddbbe9518)
-![image](https://github.com/slipx06/sunsynk-power-flow-card/assets/7227275/df6ec972-cb7e-4b69-925f-e8917ed98c42)
-![image](https://github.com/slipx06/sunsynk-power-flow-card/assets/7227275/275b0940-a3eb-428c-8ac0-b56b1a0e543a)
-
-*Full Version*
-
-![sun_full](https://github.com/slipx06/sunsynk-power-flow-card/assets/7227275/791c12a0-e80a-4d30-a211-3c60b4f8ac88)
-![image](https://github.com/slipx06/sunsynk-power-flow-card/assets/7227275/cd55d1e7-b821-4b3f-a308-8efca55fdda2)
-![image](https://github.com/slipx06/sunsynk-power-flow-card/assets/7227275/fe4157a8-4f87-4296-b48e-2a6819c00106)
-![image](https://github.com/slipx06/sunsynk-power-flow-card/assets/7227275/8f5f9f90-513a-460e-b96c-9043c9a3276d)
 
 ## Installation
 
