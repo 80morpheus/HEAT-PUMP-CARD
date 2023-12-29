@@ -1027,7 +1027,7 @@ export class SunsynkPowerFlowCard extends LitElement {
                             <rect x="6" y="300.75" width="70" height="70" rx="10.5" ry="10.5" fill="none"
                                   stroke="${battery_colour}" pointer-events="all"
                                   display="${!config.show_battery ? 'none' : ''}"/>
-                            <rect x="234" y="153" width="70" height="70" rx="10.5" ry="10.5" fill="none"
+                            <rect x="334" y="253" width="70" height="70" rx="10.5" ry="10.5" fill="none"
                                   stroke="${grid_colour}" pointer-events="all"
                                   display="${!config.show_grid ? 'none' : ''}"/>
                             <rect x="386" y="265" width="70" height="30" rx="4.5" ry="4.5" fill="none"
