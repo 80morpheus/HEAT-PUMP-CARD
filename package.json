@@ -1,8 +1,8 @@
 {
   "name": "WP-card",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A customizable Home Assistant card for Wärmepumpe.",
-  "main": "sunsynk-power-flow-card.js",
+  "main": "heat-pump-card.js",
   "scripts": {
     "lint": "eslint src/*.ts | more ",
     "lintindex": "eslint src/index.ts | more",
@@ -15,14 +15,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/slipx06/sunsynk-power-flow-card.git"
+    "url": "git+https://github.com/80morpheus/heat-pump-card.git"
   },
-  "author": "marksie1988 <marksie1988@users.noreply.github.com>",
+  "author": "80morpheus <80morpheus@users.noreply.github.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/slipx06/sunsynk-power-flow-card/issues"
+    "url": "https://github.com/80morpheus/heat-pump-card/issues"
   },
-  "homepage": "https://github.com/slipx06/sunsynk-power-flow-card#readme",
+  "homepage": "https://github.com/80morpheus/heat-pump-card#readme",
   "dependencies": {
     "@lit-labs/scoped-registry-mixin": "^1.0.3",
     "custom-card-helpers": "^1.9.0",
