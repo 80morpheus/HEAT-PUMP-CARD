@@ -1,6 +1,6 @@
 {
   "name": "WP-card",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A customizable Home Assistant card for Wärmepumpe.",
   "main": "heat-pump-card.js",
   "scripts": {
