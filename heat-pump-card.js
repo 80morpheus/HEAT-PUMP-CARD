@@ -13,7 +13,10 @@ class HeatPumpCard extends LitElement {
     
   static get properties() {    return {      hass: {},      config: {},    };  }
   setConfig(config) {
-    //if (!config.entities) {      throw new Error("You need to define entities");    }
+    if (!config.ww_oben) {      throw new Error("You need to define ww_oben");    }
+    if (!config.ww_unten) {      throw new Error("You need to define ww_unten");    }
+    
+    
     this.config = config;
   }
 
@@ -164,7 +167,7 @@ class HeatPumpCard extends LitElement {
 
 <text id="ww_oben" text-anchor="middle" x="886" y="237">
 <tspan x="925">   
-77,6 °C
+${this.config.ww_oben}
 </tspan>
 </text>
 
@@ -193,7 +196,7 @@ class HeatPumpCard extends LitElement {
 
 <text id="ww_unten" text-anchor="middle" x="886" y="365">
 <tspan x="925"> 
-66,7 °C 
+${this.config.ww_unten}
 </tspan>   
 </text>
 ##########################################
