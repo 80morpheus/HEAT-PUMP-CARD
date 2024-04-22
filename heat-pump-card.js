@@ -28,8 +28,8 @@ class HeatPumpCard extends LitElement {
   
   render() {
 
-  const ww_oben_Obj = this.hass.states[this.config.ww_oben];
-    const ww_unten_Obj = this.hass.states[this.config.ww_unten];
+    const ww_oben_Obj  = hass.states[this.config.ww_oben];
+    const ww_unten_Obj = hass.states[this.config.ww_unten];
     
     return html`
        
