@@ -27,6 +27,10 @@ class HeatPumpCard extends LitElement {
   
   
   render() {
+
+  const ww_oben_Obj = this.hass.states[this.config.ww_oben];
+    const ww_unten_Obj = this.hass.states[this.config.ww_unten];
+    
     return html`
        
        <svg  width="100%" viewBox="0 0 1200 900">
