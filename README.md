@@ -1,6 +1,6 @@
 # WP-Card
 
-
+0.0.3
 
 ## Documentation
 
