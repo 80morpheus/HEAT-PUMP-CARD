@@ -31,7 +31,7 @@ class HeatPumpCard extends LitElement {
     const _ww_oben_id = this.config.ww_oben;
     //const _ww_oben_states  = this.hass.states[_ww_oben_id];
     //const _ww_oben_string = state ? _ww_oben_states.state : 'unavailable';
-    const _ww_oben = _ww_oben_id
+    const _ww_oben = hass.states[_ww_oben_id];
     const _ww_unten = this.hass.states[this.config.ww_unten];
     
     return html`
